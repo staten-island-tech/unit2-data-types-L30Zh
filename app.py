@@ -42,6 +42,7 @@ else: print("Incorrect")
  """
 
 
-x = "2 + 2"
+x = ["2+2", "3+5", "12-3", "5*6"]
+
 Question = input(f"What is, {x}?")
 
