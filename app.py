@@ -66,9 +66,9 @@ Tip_Amount = input(f"The bill is {x} dollars, how was the servive?")
 if Tip_Amount == "bad":
     print(f"Well, The total is {x*Tip[0]} dollars then...")
 elif Tip_Amount == "ok":
-    print(f"Alright, the total is {x*Tip[1]} dollars.")
+    print(f"Alright, the total is {x*Tip[1]} dollars with a {Tip[1]*100 - 100} percent tip.")
 elif Tip_Amount == "good":
-    print(f"That's nice to hear! The total is {x*Tip[2]} dollars.")
+    print(f"That's nice to hear! The total is {x*Tip[2]} dollars with a {Tip[2]*100 - 100} percent tip.")
 elif Tip_Amount == "great":
-    print(f"That's nice to hear! The total is {x*Tip[3]} dollars.")
+    print(f"That's nice to hear! The total is {x*Tip[3]} dollars with a {Tip[3]*100 - 100} percent tip.")
 
