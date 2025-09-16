@@ -42,7 +42,33 @@ else: print("Incorrect")
  """
 
 
-x = ["2+2", "3+5", "12-3", "5*6"]
+""" x = ["2+2", "3+5", "12-3", "5*6"]
 
 Question = input(f"What is, {x}?")
+
+ """
+
+
+
+
+""" temp = 80
+if temp > 70:
+    print("It is hot")
+elif temp == 70:
+    print("It is perfect")
+else:
+    print("It is cold") """
+
+
+Tip = [1.0, 1.15, 1.20, 1.25]
+x = 50
+Tip_Amount = input(f"The bill is {x} dollars, how was the servive?")
+if Tip_Amount == "bad":
+    print(f"Well, The total is {x*Tip[0]} dollars then...")
+elif Tip_Amount == "ok":
+    print(f"Alright, the total is {x*Tip[1]} dollars.")
+elif Tip_Amount == "good":
+    print(f"That's nice to hear! The total is {x*Tip[2]} dollars.")
+elif Tip_Amount == "great":
+    print(f"That's nice to hear! The total is {x*Tip[3]} dollars.")
 
