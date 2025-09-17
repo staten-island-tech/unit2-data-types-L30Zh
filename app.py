@@ -60,6 +60,25 @@ else:
     print("It is cold") """
 
 
+
+#Challenge 1:
+""" 
+x=16
+
+if x % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+ """
+
+
+
+
+
+
+#Challenge 2:
+
+""" 
 Tip = [1.0, 1.15, 1.20, 1.25]
 x = 50
 Tip_Amount = input(f"The bill is {x} dollars, how was the servive?")
@@ -70,5 +89,20 @@ elif Tip_Amount == "ok":
 elif Tip_Amount == "good":
     print(f"That's nice to hear! The total is {x*Tip[2]} dollars with a {Tip[2]*100 - 100} percent tip.")
 elif Tip_Amount == "great":
-    print(f"That's nice to hear! The total is {x*Tip[3]} dollars with a {Tip[3]*100 - 100} percent tip.")
+    print(f"That's nice to hear! The total is {x*Tip[3]} dollars with a {Tip[3]*100 - 100} percent tip.")"""
 
+
+
+
+
+#Challenge 3:
+x = 15
+Input = input(f"The number is: {x}, correct?")
+if Input == "yes":
+    print(f"Okay, the divisors of the number are {y}")
+if Input % Y == 0:
+    print (f"{Input} is divisible by {X}")
+for Y in range(1, x):
+    if Input % x == 0:
+        y.append(Y)
+        print (f"{Input} is divisible by {Y}")
