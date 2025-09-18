@@ -92,15 +92,36 @@ elif Tip_Amount == "great":
 
 
 #Challenge 3:
-
-Num = 5021890125
+""" 
+Num = 250
 Input = input(f"The number is: {Num}, correct?")
 if Input == "yes":
     print(f"Okay, the divisors of the number are:")
     for i in range(1, Num + 1):
         if Num % i == 0:
             print(i)
-else: print("okay then..")
+else: print("okay then..") """
+
+
+
+
+
+#Challenge 4:
+
+Num1 = 1024
+Num2 = 4096
+
+values = []
+for i in range(1, Num1 + 1):
+    if Num1 % i == 0:
+        for j in range(1, Num2 + 1):
+            if Num2 % j == 0:
+                if i == j:
+                    print(i)
+                    
+                    
+                    
+        
 
 
 
