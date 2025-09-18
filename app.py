@@ -73,9 +73,6 @@ else:
 
 
 
-
-
-
 #Challenge 2:
 
 """ 
@@ -94,15 +91,17 @@ elif Tip_Amount == "great":
 
 
 
-
 #Challenge 3:
-x = 15
-Input = input(f"The number is: {x}, correct?")
+
+Num = 5021890125
+Input = input(f"The number is: {Num}, correct?")
 if Input == "yes":
-    print(f"Okay, the divisors of the number are {y}")
-if Input % Y == 0:
-    print (f"{Input} is divisible by {X}")
-for Y in range(1, x):
-    if Input % x == 0:
-        y.append(Y)
-        print (f"{Input} is divisible by {Y}")
+    print(f"Okay, the divisors of the number are:")
+    for i in range(1, Num + 1):
+        if Num % i == 0:
+            print(i)
+else: print("okay then..")
+
+
+
+
