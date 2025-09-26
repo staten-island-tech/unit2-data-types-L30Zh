@@ -108,7 +108,7 @@ else: print("okay then..") """
 
 #Challenge 4:
 
-Num1 = 1024
+""" Num1 = 1024
 Num2 = 4096
 
 values = []
@@ -117,9 +117,19 @@ for i in range(1, Num1 + 1):
         for j in range(1, Num2 + 1):
             if Num2 % j == 0:
                 if i == j:
-                    print(i)
-                    
-                    
+                    print (j)
+ """
+
+Values = []
+def gcf (x, y):
+    for i in range(1, x+1):
+        if x % i == 0 and y % i == 0:
+            Values.append(i)
+gcf (4952136, 1236912)
+GCF = (max(Values))
+print (f"The GCF of the two digits is {GCF}")
+
+                
                     
         
 
